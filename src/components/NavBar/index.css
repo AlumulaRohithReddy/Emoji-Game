@@ -1,0 +1,66 @@
+/* Write your code here. */
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  padding: 20px;
+}
+.f {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-tracks: center;
+}
+.sc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-tracks: center;
+}
+.image {
+  height: 40px;
+  width: 60px;
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+.main {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .para {
+  font-size: 10px;
+  color: #ffffff;
+}
+.main {
+  font-size: 10px;
+  color: #ffffff;
+}
+  .image {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (min-width:767px) and(max-width: 922px) {
+  .para {
+  font-size: 20px;
+  color: #ffffff;
+}
+.main {
+  font-size: 20px;
+  color: #ffffff;
+}
+  .image {
+    height: 30px;
+    width: 30px;
+  }
+}

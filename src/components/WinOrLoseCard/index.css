@@ -1,0 +1,80 @@
+.sub {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  justify-content: space-around;
+  height: 400px;
+  width: 600px;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.result {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.re {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #6a59ff;
+}
+.p {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.bt {
+  height: 40px;
+  width: 80px;
+  color: #3d3d3d;
+  font-size: 15px;
+  background-color: #ffce27;
+  border-radius: 20px;
+}
+.i {
+  height: 300px;
+  width: 200px;
+}
+@media (max-width: 767px) {
+  .sub{
+    width: 150px;
+    height: 150px;
+  }
+  .i{
+    height: 80px;
+    width: 80px;
+  }
+  .result{
+    font-size: 20px;
+  }
+  .re{
+    font-size: 20px;
+  }
+  .bt{
+    font-size: 10px;
+  }
+}
+@media (min-width: 767px) and (max-width: 922px) {
+  .sub{
+    width: 350px;
+    height: 350px;
+  }
+  .i{
+    height: 180px;
+    width: 180px;
+  }
+  .result{
+    font-size: 30px;
+  }
+  .re{
+    font-size: 30px;
+  }
+  .bt{
+    font-size: 10px;
+  }
+}
